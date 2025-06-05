@@ -1,0 +1,60 @@
+Step 1: System Requirements
+
+OS: Windows 10/11 or Linux (Ubuntu, RHEL, CentOS)
+
+Memory: Minimum 4 GB RAM (8+ GB recommended)
+
+Disk Space: 2–4 GB available
+
+Dependencies (Linux):
+
+gcc, libXft, libX11, libstdc++, etc.Step 
+
+2: Get the Installer
+
+For Intel/Altera FPGA users:
+
+Download ModelSim Intel FPGA Edition from:
+
+https://www.intel.com/content/www/us/en/software-kit/750368/modelsim-intel-fpgas-standard-edition-software-version-18-1.html
+
+Step 3: Run the Installer
+
+On Windows:
+
+Run the .exe installer as Administrator.
+
+Choose the destination folder (e.g., C:\ModelSim)
+
+Choose components (32-bit or 64-bit).
+
+Complete the installation wizard.
+
+Step 4: Apply License
+
+For Floating or Node-Locked License:
+
+Place the license.dat file in the recommended directory.
+
+Set the environment variable:
+
+bash	export LM_LICENSE_FILE=/path/to/license.dat
+
+Step 5: Launch ModelSim
+
+On Windows:
+
+From Start Menu → ModelSim → modelsim.exe
+
+Step 6: Test Installation
+
+Launch ModelSim
+
+Run a simple simulation:
+
+tcl
+
+vlib work
+vlog my_test.v
+vsim my_test
+run -all

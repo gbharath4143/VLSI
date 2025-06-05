@@ -1,0 +1,25 @@
+1. Go to the website
+
+https://www.edaplayground.com
+
+2. Choose a Simulator
+
+At the top left, under "Choose a Simulator"
+
+Pick ModelSim (or any other like VCS, Icarus, etc.)
+
+3. Write Your Code
+
+Left side = Design file (e.g., Verilog/VHDL)
+
+Right side = Testbench (to simulate your design)
+
+4. Click "Run"
+
+Hit the blue "Run" button on top.
+
+Output will show below.
+
+5. Optional: Save & Share
+
+Create a free account to save your code or share links with others.
