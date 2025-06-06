@@ -6,7 +6,7 @@ https://www.edaplayground.com
 
 At the top left, under "Choose a Simulator"
 
-Pick ModelSim (or any other like VCS, Icarus, etc.)
+Pick Model Sim (or any other like VCS, Icarus, etc.)
 
 3. Write Your Code
 

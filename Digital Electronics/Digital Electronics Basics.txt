@@ -1,0 +1,12 @@
+Basics of gates in digital electronics
+
+Gate 	Gate 	Description
+
+AND	and	Logical AND
+OR	or	Logical OR
+NOT	not	Logical Inverter (NOT)
+NAND	nand	NOT-AND
+NOR	nor	NOT-OR
+XOR	xor	Exclusive OR
+XNOR	xnor	Exclusive NOR (XNOR)
+BUF	buf	Buffer (copies input to output)
