@@ -1,0 +1,1 @@
+# KERNEL: num1=8,num2=7,num3=2097152,op=5 
